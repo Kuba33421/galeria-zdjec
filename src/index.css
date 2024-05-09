@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.button-primary{
+    backgroud-color: pink;
+    border-color: blueviolet;
+    display: flex;
+    padding: 0.75rem;
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transition-duration: 100ms;
+    cursor: pointer;
+    user-select: none;
+}
+.button-success{
+    border-color: chartreuse;
+    background-color: deeppink;
+    display: flex;
+    padding: 0.75rem;
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transition-duration: 100ms;
+    cursor: pointer;
+    user-select: none;
+}
+.button-danger{
+    display: flex;
+    padding: 0.75rem;
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transition-duration: 100ms;
+    cursor: pointer;
+    user-select: none;
+
+}
+.buttton-secondary{
+    display: flex;
+    padding: 0.75rem;
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transition-duration: 100ms;
+    cursor: pointer;
+    user-select: none;
+}
+.button-accent{
+    display: flex;
+    padding: 0.75rem;
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transition-duration: 100ms;
+    cursor: pointer;
+    user-select: none;
+
+}
+.button-text{
+    display: flex;
+    padding: 0.75rem;
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transition-duration: 100ms;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.div-one{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    width: 20%;
+
+}
+.img-one{
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transition-duration: 200ms;
+    user-select: none;
+}
+.div-two{
+    display: flex;
+    z-index: 10;
+    padding: 1.25rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.div-three{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+.div-four{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+.div-five{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.div-six{
+    width: 4rem;
+    height: 4rem;
+
+}
+.div-seven{
+    background-color: green;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+.input-one{
+    background-color: black;
+    padding-left: 1rem;
+    border-radius: 5px;
+    outline-width: 0px;
+    width: 100%;
+    height: 3rem;
+    stroke-width: 0;
+}
+.div-eight{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    color: blueviolet;
+}
